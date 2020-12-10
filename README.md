@@ -25,3 +25,7 @@ On MacOS you can use Automator to run this script indefinitely.
 > Step 3: Insert the following text into the block: "/Users/YOUR_USER_NAME/Documents/wallpaper-script/wallpaper.bash long-running-process &>/dev/null &
 
 > Step 4: Drag and drop a "Loop" block onto the timeline
+
+> Step 5: Open System Preferences > Users & Groups > Login Items and add your Automator application
+
+> Note: if you want to disable the application, remove the application from your Login Items.
