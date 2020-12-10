@@ -1,5 +1,6 @@
 #!/bin/bash
 
+while true; do
 
 # ↓↓ CHANGE to the full path of your desired wallpaper ↓↓
 desiredWallpaper="/Users/johnbradford/Desktop/wallpaper.jpg"
@@ -28,3 +29,7 @@ osascript << EOF
 EOF
 
 fi
+
+# Repeat the process in one minute
+sleep 60
+done
