@@ -4,7 +4,7 @@ A simple prank script that changes your, or your friend's wallpaper to an image 
 ## Setup
 This script is made for MacOS, so if you want a windows version, you will have to change parts of this file on your own.
 
-On the second line after the shebang and while loop, you will find a variable. Change the variable to the path of your desired wallpaper image.
+On the second line, after the shebang and while loop, you will find a variable. Change the variable to the path of your desired wallpaper image.
 
 ```bash
 #!/bin/bash
