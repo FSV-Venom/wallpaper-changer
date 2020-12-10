@@ -1,7 +1,9 @@
 # Wallpaper Changer
 A simple prank script that changes your, or your friend's wallpaper to an image of your choice.
 
-# Setup
+## Setup
+This script is made for MacOS, so if you want a windows version, you will have to change parts of this file on your own.
+
 On the first line after the shebang, you will find a variable. Change the variable to the path of your desired wallpaper image.
 
 ```bash
@@ -12,3 +14,14 @@ On the first line after the shebang, you will find a variable. Change the variab
 desiredWallpaper="/Users/johnbradford/Desktop/wallpaper.jpg"
 ```
 The script will handle the rest ;)
+
+## Automator Setup (Optional)
+On MacOS you can use Automator to run this script indefinitely.
+
+> Step 1: Open Automator and create a new application
+
+> Step 2: Drag and drop the "Run Shell Script" block onto the timeline
+
+> Step 3: Insert the following text into the block: "/Users/YOUR USER NAME/Documents/wallpaper-script/wallpaper.bash long-running-process &>/dev/null &
+
+> Step 4: Drag and drop a "Loop" block onto the timeline
