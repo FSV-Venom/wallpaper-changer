@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 while true; do
 
 # ↓↓ CHANGE to the full path of your desired wallpaper ↓↓
