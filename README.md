@@ -22,6 +22,6 @@ On MacOS you can use Automator to run this script indefinitely.
 
 > Step 2: Drag and drop the "Run Shell Script" block onto the timeline
 
-> Step 3: Insert the following text into the block: "/Users/YOUR USER NAME/Documents/wallpaper-script/wallpaper.bash long-running-process &>/dev/null &
+> Step 3: Insert the following text into the block: "/Users/YOUR_USER_NAME/Documents/wallpaper-script/wallpaper.bash long-running-process &>/dev/null &
 
 > Step 4: Drag and drop a "Loop" block onto the timeline
