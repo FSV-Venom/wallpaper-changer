@@ -4,7 +4,7 @@
 while true; do
 
 # ↓↓ CHANGE to the full path of your desired wallpaper ↓↓
-desiredWallpaper="/Users/johnbradford/Desktop/wallpaper.jpg"
+desiredWallpaper="/complete/path/to/file.jpg"
 
 
 # Find the path of the active wallpaper
