@@ -11,7 +11,7 @@ On the second line, after the shebang and while loop, you will find a variable. 
 
 
 # ↓↓ CHANGE to the full path of your desired wallpaper ↓↓
-desiredWallpaper="/Users/johnbradford/Desktop/wallpaper.jpg"
+desiredWallpaper="complete/path/to/file.jpg"
 ```
 The script will handle the rest ;)
 
